@@ -1,6 +1,5 @@
 package com.maxmendes.apicovid19.controller;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.maxmendes.apicovid19.domain.CovidData;
 import com.maxmendes.apicovid19.repository.CovidDataRepository;
 import com.maxmendes.apicovid19.service.CovidDataService;
@@ -8,7 +7,6 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
